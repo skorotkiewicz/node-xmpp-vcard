@@ -1,0 +1,28 @@
+{
+  "name": "node-xmpp-vcard",
+  "version": "1.0.0",
+  "description": "Get user vCard",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorotkiewicz/node-xmpp-vcard.git"
+  },
+  "author": "Sebastian Korotkiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skorotkiewicz/node-xmpp-vcard/issues"
+  },
+  "homepage": "https://github.com/skorotkiewicz/node-xmpp-vcard#readme",
+  "dependencies": {
+    "@xmpp/client": "^0.11.1",
+    "@xmpp/debug": "^0.11.0",
+    "cors": "^2.8.5",
+    "dom-parser": "^0.1.6",
+    "express": "^4.17.1",
+    "jsdom": "^16.3.0"
+  }
+}
